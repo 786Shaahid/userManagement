@@ -1,8 +1,5 @@
-
 import { configDotenv } from "dotenv";
-
 import express from "express";
-
 import { connectDB } from "./configuration/mongoose.config.js";
 import authRoutes from './routes/auth.js';
 import userRoutes from './routes/users.js';
